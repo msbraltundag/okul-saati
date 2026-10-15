@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetKokLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvWidgetBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Ders"
+        android:textColor="#38BDF8"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Chronometer
+        android:id="@+id/kronometreWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:countDown="true"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWidgetAltBilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="08:30 - 09:10"
+        android:textColor="#CBD5E1"
+        android:textSize="12sp" />
+
+</LinearLayout>
